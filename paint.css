@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Pacifico&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: rgba(137, 217, 231, 0.879);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    max-width: 550px;
+    max-height: 550px;
+    margin: 20px 450px;
+    background-color: white;
+}
+.header{
+    text-align: center;
+}
+h1{
+    padding: 5px;
+    font-size: 40px;
+    font-family: "Honk", system-ui;
+}
+button{
+    border: none;
+    font-family: "Pacifico", cursive;
+
+    background-color: rgb(133, 214, 214);
+    border-radius:10px ;
+    box-shadow: 2px 4px 3px rgb(51, 49, 49);
+    font-size: 30px;
+    padding: 5px 50px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    
+    box-shadow: 4px 8px 6px rgb(51, 49, 49);
+    background-color: rgb(86, 169, 218);
+}
+
